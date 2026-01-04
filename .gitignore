@@ -1,0 +1,26 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Rust build artifacts (nested workspaces)
+**/target/
+
+# Wasm / Yew / Trunk
+**/dist/
+**/*.wasm
+
+# Logs and temp
+*.log
+*.tmp
+tmp/
+
+# Node leftovers (not used, but safe)
+node_modules/
+
+# Misc
+/.cargo/
+.env

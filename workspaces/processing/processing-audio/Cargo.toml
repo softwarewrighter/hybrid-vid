@@ -1,0 +1,12 @@
+[package]
+name = "processing-audio"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "processing_audio"
+path = "src/lib.rs"
+
+[dependencies]
+processing-core = { path = "../processing-core" }
+log = "0.4"

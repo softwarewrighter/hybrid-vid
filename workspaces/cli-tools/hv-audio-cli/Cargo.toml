@@ -1,0 +1,17 @@
+[package]
+name = "hv-audio-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+processing-core = { path = "../../processing/processing-core" }
+processing-audio = { path = "../../processing/processing-audio" }
+env_logger = "0.11"
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[[bin]]
+name = "hv-audio"
+path = "src/main.rs"

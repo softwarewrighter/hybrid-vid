@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "hv-web-core",
+    "hv-web-app",
+]
+resolver = "2"
+

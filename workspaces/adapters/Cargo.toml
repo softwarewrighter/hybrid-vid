@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "adapter-yt-rs",
+    "adapter-video-publishing",
+]
+resolver = "2"
+

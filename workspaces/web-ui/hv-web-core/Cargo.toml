@@ -1,0 +1,11 @@
+[package]
+name = "hv-web-core"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+processing-core = { path = "../../processing/processing-core", features = ["wasm"] }
+serde = { version = "1", features = ["derive"] }

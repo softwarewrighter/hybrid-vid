@@ -1,0 +1,15 @@
+[package]
+name = "hv-video-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+processing-core = { path = "../../processing/processing-core" }
+processing-video = { path = "../../processing/processing-video" }
+env_logger = "0.11"
+log = "0.4"
+
+[[bin]]
+name = "hv-video"
+path = "src/main.rs"

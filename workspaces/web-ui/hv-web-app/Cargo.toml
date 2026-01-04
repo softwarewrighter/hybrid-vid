@@ -1,0 +1,15 @@
+[package]
+name = "hv-web-app"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+hv-web-core = { path = "../hv-web-core" }
+wasm-bindgen = "0.2"
+log = "0.4"
+console_log = { version = "1", features = ["color"] }
+console_error_panic_hook = "0.1"

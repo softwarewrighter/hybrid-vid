@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "hv-audio-cli",
+    "hv-video-cli",
+]
+resolver = "2"
+

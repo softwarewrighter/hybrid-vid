@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "processing-core",
+    "processing-audio",
+    "processing-video",
+]
+resolver = "2"
+
